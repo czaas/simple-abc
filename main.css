@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#dLetter {
+    font-size: 8em;
+    text-align: center;
+    width: 100%;
+}
+#lArrow {
+    left: 0;
+    height: 100vh;
+}
+#rArrow {
+    right: 0;
+    height: 100vh;
+    top: 0
+}
+.arrow {
+    font-size: 4em;
+    position: absolute;
+    height: 100%;
+    width: 2em;
+    text-align: center;
+    vertical-align: top;
+}
+.arrow::selection {
+    background: transparent;
+}
+.arrow:hover {
+    cursor: pointer;
+}
+#lArrow:hover {
+    background: -webkit-linear-gradient(left, #666, transparent);
+    background: -moz-linear-gradient(left, #666, transparent);
+    background: -o-linear-gradient(left, #666, transparent);
+    background: linear-gradient(left, #666, transparent);
+}
+#rArrow:hover {
+    background: -webkit-linear-gradient(right, #666, transparent);
+    background: -moz-linear-gradient(right, #666, transparent);
+    background: -o-linear-gradient(right, #666, transparent);
+    background: linear-gradient(right, #666, transparent);
+}
